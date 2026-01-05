@@ -1,6 +1,6 @@
-const form = document.querySelector("form");
 const button = document.querySelector("button");
+const input = document.querySelector("input");
 
 button.addEventListener("click", () => {
-  form.reset();
+  input.focus();
 });
