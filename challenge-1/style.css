@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  background-color: black;
+  padding: 20px;
+}
+p {
+  color: white;
+}
+button {
+  background-color: rgb(1, 33, 1);
+  color: rgb(128, 184, 128);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
