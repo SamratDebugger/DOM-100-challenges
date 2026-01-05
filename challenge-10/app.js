@@ -5,9 +5,9 @@ let count = 0;
 
 increase.addEventListener("click", () => {
   count++;
-  counter.textContent = count;
+  counter.innerText = count;
 });
 decrease.addEventListener("click", () => {
   count--;
-  counter.textContent = count;
+  counter.innerText = count;
 });
