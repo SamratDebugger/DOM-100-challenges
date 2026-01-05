@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+}
+h1 {
+  color: white;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+  background-color: green;
+  color: rgb(135, 194, 135);
+  border: none;
+  border-radius: 5px;
+}
