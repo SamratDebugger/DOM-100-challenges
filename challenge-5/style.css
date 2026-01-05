@@ -1,0 +1,23 @@
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+form div {
+  border: 1px solid green;
+  max-width: fit-content;
+  border-radius: 5px;
+}
+button {
+  padding: 10px;
+  background-color: green;
+  color: rgb(135, 194, 135);
+  border-radius: 5px;
+  border: none;
+}
+input {
+  outline: none;
+  border: none;
+}
