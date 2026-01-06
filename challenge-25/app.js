@@ -1,13 +1,9 @@
-const div = document.querySelector("div");
-const button = document.querySelector("button");
+const div = document.getElementById("div");
+const button = document.getElementById("button");
 
 button.addEventListener("click", () => {
-  const maxX = window.innerWidth - div.offsetWidth;
-  const maxY = window.innerHeight - div.offsetHeight;
-
-  const randomX = Math.floor(Math.random() * maxX);
-  const randomY = Math.floor(Math.random() * maxY);
-
-  div.style.left = randomX + "px";
-  div.style.top = randomY + "px";
+  let randomValOne = Math.round(Math.random() * 500);
+  let randomValTwo = Math.round(Math.random() * 500);
+  div.style.left = `${randomValOne}px`;
+  div.style.top = `${randomValTwo}px`;
 });
