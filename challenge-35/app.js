@@ -1,7 +1,7 @@
 const button = document.querySelector("button");
-let list = document.getElementsByClassName("list");
+const body = document.querySelector("body");
 let ul = document.querySelector("ul");
 
 button.addEventListener("click", () => {
-  ul.innerHTML = "";
+  body.removeChild(body.firstElementChild);
 });
