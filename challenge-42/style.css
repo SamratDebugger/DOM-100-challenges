@@ -1,0 +1,16 @@
+button {
+  padding: 10px;
+  background-color: rgb(199, 15, 15);
+  color: rgb(234, 238, 234);
+  border-radius: 5px;
+  border: none;
+  max-width: fit-content;
+}
+li {
+  list-style: none;
+  width: fit-content;
+}
+
+.hide {
+  display: none;
+}
