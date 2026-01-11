@@ -4,5 +4,6 @@ const randomTrans = () => {
   let randomVal = Math.round(Math.random() * 100);
   for (const list of lists) {
     list.style.rotate = `${randomVal}deg`;
+    list.style.scale = `${randomVal}`;
   }
 };
